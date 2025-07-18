@@ -2,12 +2,12 @@ import linkedInLogo from "../assets/linkedInLogo.png";
 import githubLogo from "../assets/githubLogo.png";
 
 const Navbar = () => (
-  <div className="d-flex justify-content-between align-items-center">
+  <div className="d-flex justify-content-between align-items-center bg-dark px-4 py-3 sticky-top shadow">
     <nav className="nav nav-masthead justify-content-center">
       {["Home", "Experience", "Projects", "Contact"].map((section) => (
         <a
           key={section}
-          href="#"
+          href={`#${section.toLowerCase()}`}
           className="link-light mx-3 link-underline-opacity-0 link-underline-opacity-100-hover"
         >
           {section}
