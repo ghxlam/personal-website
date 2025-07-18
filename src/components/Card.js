@@ -8,7 +8,10 @@ const Card = ({
   linkLabel,
 }) => (
   <div className="mb-4">
-    <div className="card mb-4 shadow-sm h-100" style={{ maxWidth: "100%" }}>
+    <div
+      className="card mb-4 shadow-sm h-100 border-0"
+      style={{ maxWidth: "100%", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.5)" }}
+    >
       <div className="row g-0 h-100">
         <div className="col-md-4">
           <img src={image} alt={title} className="img-fluid rounded-start" />
