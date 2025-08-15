@@ -1,3 +1,5 @@
+import "../css/Card.css";
+
 const Card = ({
   title,
   company,
@@ -14,7 +16,13 @@ const Card = ({
     >
       <div className="row g-0 h-100">
         <div className="col-md-4">
-          <img src={image} alt={title} className="img-fluid rounded-start" />
+          <div className="card-img-wrapper">
+            <img
+              src={image}
+              alt={title}
+              className="card-img-custom rounded-start"
+            />
+          </div>
         </div>
         <div className="col-md-8">
           <div className="card-body">
