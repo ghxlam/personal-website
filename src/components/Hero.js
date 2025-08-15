@@ -5,6 +5,7 @@ import momentumPic from "../assets/momentumLogo.png";
 import mechFindPic from "../assets/mechFindLogo.png";
 import coveyMonPic from "../assets/coveymonLogo.png";
 import liveLawyerPic from "../assets/liveLawyerLogo.png";
+import ecommercePic from "../assets/ecommerceLogo.png";
 import Card from "./Card";
 import Section from "./Section";
 
@@ -124,7 +125,7 @@ const Hero = () => (
 ▪ Developed a Python script to process XHTML files, extracting key data points and seamlessly transferring the information into a MySQL database for storage and retrieval.
 ▪ Employed PHP to dynamically fetch and display data from the MySQL database, hosting the website on an Apache web server to ensure robust and reliable performance.
 "
-        image={momentumPic}
+        image={ecommercePic}
         link="https://github.com/ghxlam/EcommerceWebsite"
         linkLabel="View Repository"
       />
