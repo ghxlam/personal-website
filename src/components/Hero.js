@@ -133,7 +133,6 @@ const Hero = () => (
     </Section>
 
     <Section id="contact" title="Contact Me">
-      <p>If you’d like to get in touch, fill out the form below:</p>
       <ContactForm />
     </Section>
   </main>
