@@ -1,5 +1,5 @@
-import linkedInLogo from "../assets/linkedInLogo.png";
-import githubLogo from "../assets/githubLogo.png";
+import linkedInLogo from "../assets/linkedInLogo.svg";
+import githubLogo from "../assets/githubLogo.svg";
 
 const Navbar = () => (
   <div className="d-flex justify-content-between align-items-center bg-dark px-4 py-3 sticky-top shadow">
