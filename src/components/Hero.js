@@ -8,6 +8,7 @@ import liveLawyerPic from "../assets/liveLawyerLogo.png";
 import ecommercePic from "../assets/ecommerceLogo.png";
 import Card from "./Card";
 import Section from "./Section";
+import ContactForm from "./ContactForm";
 
 const Hero = () => (
   <main className="px-3 my-auto text-center">
@@ -131,7 +132,10 @@ const Hero = () => (
       />
     </Section>
 
-    <Section id="contact" title="Contact Me"></Section>
+    <Section id="contact" title="Contact Me">
+      <p>If you’d like to get in touch, fill out the form below:</p>
+      <ContactForm />
+    </Section>
   </main>
 );
 
