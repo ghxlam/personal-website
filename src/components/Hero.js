@@ -34,7 +34,7 @@ const Hero = () => (
         learning and growing as a software engineer.
       </p>
       <a
-        href="/Ghulam_Ahmed-Resume.pdf"
+        href={`${process.env.PUBLIC_URL}/Ghulam_Ahmed-Resume.pdf`}
         target="_blank"
         rel="noopener noreferrer"
         className="btn btn-lg btn-light fw-bold border-white bg-white"
