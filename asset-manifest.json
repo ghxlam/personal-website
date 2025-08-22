@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2dd30c15.css",
-    "main.js": "/static/js/main.09f67845.js",
+    "main.js": "/static/js/main.e41fb3d5.js",
     "static/media/ecommerceLogo.png": "/static/media/ecommerceLogo.fd14e2d710fd9a7a8f00.png",
     "static/media/mainImage.jpg": "/static/media/mainImage.2379052edef144b4d7fa.jpg",
     "static/media/liveLawyerLogo.png": "/static/media/liveLawyerLogo.ff00f6b8218bb3ccf9f8.png",
@@ -13,10 +13,10 @@
     "static/media/linkedInLogo.svg": "/static/media/linkedInLogo.c732bf7eac2ed0f4bd06d7b1dd14fe06.svg",
     "index.html": "/index.html",
     "main.2dd30c15.css.map": "/static/css/main.2dd30c15.css.map",
-    "main.09f67845.js.map": "/static/js/main.09f67845.js.map"
+    "main.e41fb3d5.js.map": "/static/js/main.e41fb3d5.js.map"
   },
   "entrypoints": [
     "static/css/main.2dd30c15.css",
-    "static/js/main.09f67845.js"
+    "static/js/main.e41fb3d5.js"
   ]
 }
