@@ -8,6 +8,8 @@ const Card = ({
   image,
   link,
   linkLabel,
+  pdfLink,
+  pdfLinkLabel,
 }) => (
   <div className="mb-4">
     <div
@@ -38,14 +40,26 @@ const Card = ({
                 </span>
               ))}
             </p>
+
             {link && (
               <a
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="card-link"
+                className="btn btn-sm btn-outline-primary me-2"
               >
                 {linkLabel || "Learn More"}
+              </a>
+            )}
+
+            {pdfLink && (
+              <a
+                href={pdfLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-sm btn-outline-success"
+              >
+                {pdfLinkLabel || "View PDF"}
               </a>
             )}
           </div>

@@ -57,6 +57,8 @@ const Hero = () => (
         image={skyitPic}
         link="https://skyit.services/"
         linkLabel="View Company Website"
+        pdfLink={`${process.env.PUBLIC_URL}/Ghulam-Ahmed-SkyIT-Reference.pdf`}
+        pdfLinkLabel="View Letter of Reccomendation"
       />
       <Card
         title="Generative AI Extern"
