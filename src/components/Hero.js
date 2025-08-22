@@ -9,6 +9,7 @@ import ecommercePic from "../assets/ecommerceLogo.png";
 import Card from "./Card";
 import Section from "./Section";
 import ContactForm from "./ContactForm";
+import AboutMe from "./AboutMe";
 
 const Hero = () => (
   <main className="px-3 my-auto text-center">
@@ -22,17 +23,7 @@ const Hero = () => (
       />
       <h1>Ghulam Ahmed</h1>
       <p className="lead">Software Engineer | Full-Stack | CS @ NJIT</p>
-      <p className="lead mx-5">
-        As a recent Computer Science graduate from New Jersey Institute of
-        Technology, I'm passionate about building meaningful applications that
-        solve real-world problems such as my current project MechFind. My
-        previous internship experience in Full-Stack Development allowed me to
-        work across the entire software lifecycle, from designing user
-        interfaces to managing backend logic and databases. Whether it's diving
-        deeper into React, exploring new backend frameworks such as Springboot,
-        or improving my understanding of system design, I'm eager to keep
-        learning and growing as a software engineer.
-      </p>
+      <AboutMe />
       <a
         href={`${process.env.PUBLIC_URL}/Ghulam_Ahmed-Resume.pdf`}
         target="_blank"
