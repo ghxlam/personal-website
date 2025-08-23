@@ -17,15 +17,17 @@ const Navbar = () => (
     </div>
 
     <nav className="nav nav-masthead d-flex flex-nowrap overflow-auto order-1 order-sm-0">
-      {["Home", "Experience", "Projects", "Contact"].map((section) => (
-        <a
-          key={section}
-          href={`#${section.toLowerCase()}`}
-          className="nav-link link-light mx-2 mx-sm-3"
-        >
-          {section}
-        </a>
-      ))}
+      {["Home", "Experience", "Projects", "Skills", "Education", "Contact"].map(
+        (section) => (
+          <a
+            key={section}
+            href={`#${section.toLowerCase()}`}
+            className="nav-link link-light mx-2 mx-sm-3"
+          >
+            {section}
+          </a>
+        )
+      )}
     </nav>
   </div>
 );

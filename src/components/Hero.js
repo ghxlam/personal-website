@@ -6,13 +6,14 @@ import mechFindPic from "../assets/mechFindLogo.png";
 import coveyMonPic from "../assets/coveymonLogo.png";
 import liveLawyerPic from "../assets/liveLawyerLogo.png";
 import ecommercePic from "../assets/ecommerceLogo.png";
+import njitPic from "../assets/njitLogo.png";
 import Card from "./Card";
 import Section from "./Section";
 import ContactForm from "./ContactForm";
 import AboutMe from "./AboutMe";
 
 const Hero = () => (
-  <main className="px-3 my-auto text-center">
+  <main className="px-3 text-center" style={{ paddingTop: "2rem" }}>
     {/* HOME / LANDING*/}
     <section id="home">
       <img
@@ -123,6 +124,118 @@ const Hero = () => (
         link="https://github.com/ghxlam/EcommerceWebsite"
         linkLabel="View Repository"
       />
+    </Section>
+
+    {/* SKILLS SECTION */}
+    <Section id="skills" title="Skills">
+      <div className="d-flex flex-column align-items-center gap-4 text-center">
+        {/* Languages */}
+        <div>
+          <h5 className="text-light">Languages:</h5>
+          <div className="d-flex flex-wrap justify-content-center gap-2">
+            {[
+              "TypeScript",
+              "Java",
+              "SQL",
+              "Python",
+              "C++",
+              "C",
+              "JavaScript",
+              "Kotlin",
+              "Bash",
+              "HTML",
+              "CSS",
+            ].map((skill) => (
+              <span key={skill} className="badge bg-primary text-light p-2">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Frontend */}
+        <div>
+          <h5 className="text-light">Frontend:</h5>
+          <div className="d-flex flex-wrap justify-content-center gap-2">
+            {["React.js", "Next.js", "React Native", "Tailwind CSS"].map(
+              (skill) => (
+                <span key={skill} className="badge bg-primary text-light p-2">
+                  {skill}
+                </span>
+              )
+            )}
+          </div>
+        </div>
+
+        {/* Backend */}
+        <div>
+          <h5 className="text-light">Backend:</h5>
+          <div className="d-flex flex-wrap justify-content-center gap-2">
+            {["Node.js", "Express", "GraphQL", "REST APIs", "Prisma ORM"].map(
+              (skill) => (
+                <span key={skill} className="badge bg-primary text-light p-2">
+                  {skill}
+                </span>
+              )
+            )}
+          </div>
+        </div>
+
+        {/* Databases */}
+        <div>
+          <h5 className="text-light">Databases:</h5>
+          <div className="d-flex flex-wrap justify-content-center gap-2">
+            {["PostgreSQL", "MongoDB", "Oracle SQL", "MySQL"].map((skill) => (
+              <span key={skill} className="badge bg-primary text-light p-2">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Tools & Platforms */}
+        <div>
+          <h5 className="text-light">Tools & Platforms:</h5>
+          <div className="d-flex flex-wrap justify-content-center gap-2">
+            {[
+              "Git",
+              "GitHub",
+              "Docker",
+              "Jest",
+              "AWS",
+              "Azure",
+              "Linux",
+              "Supabase",
+              "Firebase",
+              "Postman",
+            ].map((skill) => (
+              <span key={skill} className="badge bg-primary text-light p-2">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+    </Section>
+
+    {/* EDUCATION SECTION */}
+    <Section id="education" title="Education">
+      <Card
+        title="Bachelor of Science in Computer Science"
+        company="New Jersey Institute of Technology"
+        date="2021 - 2025"
+        description="▪ GPA: 3.3/4.0
+▪ Relevant Coursework: Object-Oriented Programming (C++, Java), Data Structures & Algorithms, Systems
+Programming (C, Bash), Machine Learning & Data Science (Python, Pandas, Scikit-learn), Database Design (SQL
+& NoSQL), Mobile App Development (Kotlin), Web Development (HTML, CSS, JavaScript)
+"
+        image={njitPic}
+        pdfLink={`${process.env.PUBLIC_URL}/Ghulam_Ahmed_Diploma.pdf`}
+        pdfLinkLabel="View Diploma"
+      />
+      <p style={{ marginBottom: 0, fontStyle: "italic" }}>
+        For transcript, please contact me
+      </p>
     </Section>
 
     <Section id="contact" title="Contact Me">
