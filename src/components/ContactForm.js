@@ -1,3 +1,4 @@
+// ContactForm.js
 import { useState } from "react";
 import emailjs from "emailjs-com";
 
@@ -32,16 +33,19 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container my-5">
+    <div className="container my-4">
+      {" "}
+      {/* Reduced margin from my-5 -> my-4 */}
       <div
-        className="p-4 rounded shadow-lg"
+        className="p-3 rounded shadow-lg"
         style={{
           backgroundColor: "#1e1e1e",
           maxWidth: "600px",
           margin: "0 auto",
         }}
       >
-        <h3 className="text-center mb-4 text-light">Send me a Message</h3>
+        <h3 className="text-center mb-3 text-light">Send me a Message</h3>{" "}
+        {/* Reduced mb-4 -> mb-3 */}
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label className="form-label text-light">Your Name</label>
