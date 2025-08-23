@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.2dd30c15.css",
-    "main.js": "/static/js/main.e41fb3d5.js",
-    "static/media/ecommerceLogo.png": "/static/media/ecommerceLogo.fd14e2d710fd9a7a8f00.png",
+    "main.css": "/static/css/main.1266cd29.css",
+    "main.js": "/static/js/main.bbb54a49.js",
+    "static/media/mechFindLogo.png": "/static/media/mechFindLogo.f41175632e8fe50c03bc.png",
     "static/media/mainImage.jpg": "/static/media/mainImage.2379052edef144b4d7fa.jpg",
+    "static/media/njitLogo.png": "/static/media/njitLogo.1639f4d588dfb332daec.png",
     "static/media/liveLawyerLogo.png": "/static/media/liveLawyerLogo.ff00f6b8218bb3ccf9f8.png",
-    "static/media/momentumLogo.png": "/static/media/momentumLogo.65314a8a888d220a5c3e.png",
-    "static/media/coveymonLogo.png": "/static/media/coveymonLogo.8dfee289549958709074.png",
-    "static/media/skyitLogo.png": "/static/media/skyitLogo.48b79bef4979be953b25.png",
+    "static/media/coveymonLogo.png": "/static/media/coveymonLogo.16f41eba416708f26b66.png",
+    "static/media/momentumLogo.png": "/static/media/momentumLogo.430e07869100830804c6.png",
+    "static/media/skyitLogo.png": "/static/media/skyitLogo.b29cedcd1ff9c60d18cf.png",
     "static/media/cognizantLogo.png": "/static/media/cognizantLogo.48a346928b1a94d6c2f9.png",
+    "static/media/ecommerceLogo.png": "/static/media/ecommerceLogo.9c626172862c5d4a8737.png",
     "static/media/githubLogo.svg": "/static/media/githubLogo.5a51440c1a6dab3ecbf36bec2954ddf4.svg",
     "static/media/linkedInLogo.svg": "/static/media/linkedInLogo.c732bf7eac2ed0f4bd06d7b1dd14fe06.svg",
     "index.html": "/index.html",
-    "main.2dd30c15.css.map": "/static/css/main.2dd30c15.css.map",
-    "main.e41fb3d5.js.map": "/static/js/main.e41fb3d5.js.map"
+    "main.1266cd29.css.map": "/static/css/main.1266cd29.css.map",
+    "main.bbb54a49.js.map": "/static/js/main.bbb54a49.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dd30c15.css",
-    "static/js/main.e41fb3d5.js"
+    "static/css/main.1266cd29.css",
+    "static/js/main.bbb54a49.js"
   ]
 }
