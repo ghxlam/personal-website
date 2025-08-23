@@ -1,30 +1,32 @@
 import linkedInLogo from "../assets/linkedInLogo.svg";
 import githubLogo from "../assets/githubLogo.svg";
+import "../css/Navbar.css";
 
 const Navbar = () => (
-  <div className="d-flex justify-content-between align-items-center bg-dark px-4 py-3 sticky-top shadow">
-    <nav className="nav nav-masthead justify-content-center">
+  <div className="navbar d-flex justify-content-between align-items-center bg-dark px-3 py-3 sticky-top shadow flex-nowrap">
+    <div className="navbar-brand d-flex flex-nowrap ms-2 order-0 order-sm-1">
+      <a
+        className="mx-1 mx-sm-2 nav-icon"
+        href="https://www.linkedin.com/in/ghulam-ahmed-b79b13252/"
+      >
+        <img src={linkedInLogo} alt="LinkedIn" width={26} height={22} />
+      </a>
+      <a className="mx-1 mx-sm-2 nav-icon" href="https://github.com/ghxlam">
+        <img src={githubLogo} alt="GitHub" width={26} height={22} />
+      </a>
+    </div>
+
+    <nav className="nav nav-masthead d-flex flex-nowrap overflow-auto order-1 order-sm-0">
       {["Home", "Experience", "Projects", "Contact"].map((section) => (
         <a
           key={section}
           href={`#${section.toLowerCase()}`}
-          className="link-light mx-3 link-underline-opacity-0 link-underline-opacity-100-hover"
+          className="nav-link link-light mx-2 mx-sm-3"
         >
           {section}
         </a>
       ))}
     </nav>
-    <div className="navbar-brand">
-      <a
-        className="mx-2"
-        href="https://www.linkedin.com/in/ghulam-ahmed-b79b13252/"
-      >
-        <img src={linkedInLogo} alt="LinkedIn" width={30} height={24} />
-      </a>
-      <a className="mx-2" href="https://github.com/ghxlam">
-        <img src={githubLogo} alt="GitHub" width={30} height={24} />
-      </a>
-    </div>
   </div>
 );
 
