@@ -7,6 +7,8 @@ import coveyMonPic from "../assets/coveymonLogo.png";
 import liveLawyerPic from "../assets/liveLawyerLogo.png";
 import ecommercePic from "../assets/ecommerceLogo.png";
 import njitPic from "../assets/njitLogo.png";
+import ridesharePic from "../assets/rideshareLogo.png";
+import peakFitPic from "../assets/peakFitLogo.png";
 import Card from "./Card";
 import Section from "./Section";
 import ContactForm from "./ContactForm";
@@ -101,6 +103,17 @@ const Hero = () => (
         linkLabel="View Project Details"
       />
       <Card
+        title="PeakFit | Software Engineer"
+        company="Class Project"
+        date="January 2025 - April 2025"
+        description="▪ Built a Kotlin-based Android fitness app with Google OAuth, enabling users to create, favorite, and share custom workouts. 
+▪ Integrated Firebase Firestore and SQLite for persistent data storage, supporting step tracking and personalized workout routines. 
+▪ Implemented keyword search, filtering, and community-shared workouts via the Code Ninjas Exercises API, enhancing user engagement and discoverability. "
+        image={peakFitPic}
+        link="https://github.com/ghxlam/peakfit"
+        linkLabel="View Repository"
+      />
+      <Card
         title="Covey-Mon | Software Engineer"
         company="Personal Class Project"
         date="September 2024 - December 2024"
@@ -110,6 +123,17 @@ const Hero = () => (
 ▪ Gained experience with SDLC, CI/CD pipelines, and open-source collaboration while deploying new features. "
         image={coveyMonPic}
         link="https://github.com/ghxlam/Covey-Mon"
+        linkLabel="View Repository"
+      />
+      <Card
+        title="RideShare | Software Engineer"
+        company="Personal Project"
+        date="September 2024 - November 2024"
+        description="▪  Developed a React-based MVP web app simulating a mobile ride-sharing interface, demonstrating end-to-end user flows for posting and joining campus carpools. 
+▪ Designed a responsive UI/UX with React and CSS, showcasing scalability for future mobile and full-stack expansion. 
+▪ Built a lightweight, modular proof-of-concept, highlighting potential for a campus-specific, student-to-student carpooling platform."
+        image={ridesharePic}
+        link="https://github.com/ghxlam/rideshare"
         linkLabel="View Repository"
       />
       <Card
