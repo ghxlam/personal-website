@@ -9,6 +9,7 @@ import ecommercePic from "../assets/ecommerceLogo.png";
 import njitPic from "../assets/njitLogo.png";
 import ridesharePic from "../assets/rideshareLogo.png";
 import peakFitPic from "../assets/peakFitLogo.png";
+import liveLawyerPoster from "../assets/liveLawyerPoster.png";
 import Card from "./Card";
 import Section from "./Section";
 import ContactForm from "./ContactForm";
@@ -101,6 +102,8 @@ const Hero = () => (
         image={liveLawyerPic}
         link="https://www.livelawyerapp.com/"
         linkLabel="View Project Details"
+        pdfLink={liveLawyerPoster}
+        pdfLinkLabel="View Poster"
       />
       <Card
         title="PeakFit | Software Engineer"
@@ -112,6 +115,8 @@ const Hero = () => (
         image={peakFitPic}
         link="https://github.com/ghxlam/peakfit"
         linkLabel="View Repository"
+        pdfLink={"https://i.imgur.com/cNBZGTB.mp4"}
+        pdfLinkLabel="View Demo"
       />
       <Card
         title="Covey-Mon | Software Engineer"
@@ -122,8 +127,10 @@ const Hero = () => (
 ▪ Collaborated in a SCRUM team using Agile methodologies, contributing to sprint planning & code reviews. 
 ▪ Gained experience with SDLC, CI/CD pipelines, and open-source collaboration while deploying new features. "
         image={coveyMonPic}
-        link="https://github.com/ghxlam/Covey-Mon"
+        link="https://github.com/ghxlam/covey-mon"
         linkLabel="View Repository"
+        pdfLink={"https://i.imgur.com/6HFg1ug.gif"}
+        pdfLinkLabel="View Demo"
       />
       <Card
         title="RideShare | Software Engineer"
@@ -135,6 +142,8 @@ const Hero = () => (
         image={ridesharePic}
         link="https://github.com/ghxlam/rideshare"
         linkLabel="View Repository"
+        pdfLink={"https://i.imgur.com/6RaUPn0.gif"}
+        pdfLinkLabel="View Demo"
       />
       <Card
         title="Ecommerce Website | Software Developer"
@@ -145,8 +154,10 @@ const Hero = () => (
 ▪ Employed PHP to dynamically fetch and display data from the MySQL database, hosting the website on an Apache web server to ensure robust and reliable performance.
 "
         image={ecommercePic}
-        link="https://github.com/ghxlam/EcommerceWebsite"
+        link="https://github.com/ghxlam/ecommerce-website"
         linkLabel="View Repository"
+        pdfLink={"https://i.imgur.com/ZXzjOqt.gif"}
+        pdfLinkLabel="View Demo"
       />
     </Section>
 
