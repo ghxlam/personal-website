@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.1266cd29.css",
-    "main.js": "/static/js/main.bbb54a49.js",
+    "main.js": "/static/js/main.e37c964d.js",
+    "static/media/peakFitLogo.png": "/static/media/peakFitLogo.9b4f6a0ea0c795fba9a5.png",
     "static/media/mechFindLogo.png": "/static/media/mechFindLogo.f41175632e8fe50c03bc.png",
+    "static/media/liveLawyerPoster.png": "/static/media/liveLawyerPoster.bebee0bfa34ddd13dea7.png",
     "static/media/mainImage.jpg": "/static/media/mainImage.2379052edef144b4d7fa.jpg",
     "static/media/njitLogo.png": "/static/media/njitLogo.1639f4d588dfb332daec.png",
     "static/media/liveLawyerLogo.png": "/static/media/liveLawyerLogo.ff00f6b8218bb3ccf9f8.png",
     "static/media/coveymonLogo.png": "/static/media/coveymonLogo.16f41eba416708f26b66.png",
+    "static/media/rideshareLogo.png": "/static/media/rideshareLogo.fd229ef66cf33d99f1fa.png",
     "static/media/momentumLogo.png": "/static/media/momentumLogo.430e07869100830804c6.png",
     "static/media/skyitLogo.png": "/static/media/skyitLogo.b29cedcd1ff9c60d18cf.png",
     "static/media/cognizantLogo.png": "/static/media/cognizantLogo.48a346928b1a94d6c2f9.png",
@@ -15,10 +18,10 @@
     "static/media/linkedInLogo.svg": "/static/media/linkedInLogo.c732bf7eac2ed0f4bd06d7b1dd14fe06.svg",
     "index.html": "/index.html",
     "main.1266cd29.css.map": "/static/css/main.1266cd29.css.map",
-    "main.bbb54a49.js.map": "/static/js/main.bbb54a49.js.map"
+    "main.e37c964d.js.map": "/static/js/main.e37c964d.js.map"
   },
   "entrypoints": [
     "static/css/main.1266cd29.css",
-    "static/js/main.bbb54a49.js"
+    "static/js/main.e37c964d.js"
   ]
 }
